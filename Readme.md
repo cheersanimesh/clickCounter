@@ -28,9 +28,17 @@ The application can be run using the following command:
 python main.py
 ```
 
+## Output:
+
+The application outputs the following to the terminal:
+
+```
+[{'https://youtube.com/': 557}, {'https://twitter.com/': 512}, {'https://reddit.com/': 510}, {'https://github.com/': 497}, {'https://linkedin.com/': 496}, {'https://google.com/': 492}]
+```
+
 ## Running Tests
 
-The project utilizes `pytest` as a testing framework, chosen for its simplicity and robustness, allowing for more readable tests and a rich set of features to effectively test the application.
+The project utilizes `pytest` as a testing framework, chosen for its simplicity and robustness, allowing for more readable tests and a rich set of features to effectively test the application. The tests have been compiled in the `test_click_counter.py` file.
 
 The tests can be executed using the command :
 
